@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script type="text/javascript" src="script.js">  
+    </script>    
+
+</head>
+
+
+	<button id="fist_button" class="setters" onclick="redraw()">Re-draw</button>
+	<button class="setters" onclick="changeBlue()" style= "color:Blue">Blue</button>
+	<button class="setters" onclick="changeBlack()" style= "color:white">Darker</button>
+	<button class="setters" onclick="changeRed()" style= "color:RED">Red</button>
+	<button id='greenbutton' class="setters" onclick="changeGreen()" color="green">GREEN</button>
+
+
+<ul>
+
+<div class="sketch"></div>
+<body>
+<script>
+writeSquares(16);
+changeBlue();
+</script>
+
+</body>
+</html>
